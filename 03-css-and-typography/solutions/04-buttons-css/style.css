@@ -1,0 +1,36 @@
+@import url("https://use.fontawesome.com/c83c2b0747.js");
+
+body {
+  background-color: rgb(221, 221, 221);
+}
+
+.button {
+  border: 2px solid rgb(51, 51, 51);
+  border-radius: 20px;
+  padding: 5px 15px 5px 15px;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+.button:not(.fill) {
+  color: rgb(51, 51, 51);
+  background-color: inherit;
+}
+
+.fill {
+  background-color: rgb(51, 51, 51);
+  color: rgb(251, 251, 251);
+}
+
+.hover:hover {
+  background-color: green;
+  border-color: green;
+}
+
+.hover:not(.fill):hover {
+  background-color: rgb(251, 251, 251);
+  color: green;
+}
