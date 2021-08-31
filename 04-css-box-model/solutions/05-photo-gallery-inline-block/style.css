@@ -1,0 +1,19 @@
+body {
+  padding: 0 100px 0 100px;
+  background-color: #eeeeee;
+}
+
+.gallery li {
+  display: inline-block;
+  list-style: none;
+  padding: 15px;
+  margin: 10px;
+  border: 0.4rem solid black;
+  vertical-align: middle;
+  background-color: white;
+}
+
+.gallery li img {
+  max-height: 450px;
+  max-width: 300px;
+}
