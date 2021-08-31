@@ -1,16 +1,25 @@
 html {
+  box-sizing: border-box;
+}
+
+body,
+*,
+*::after,
+*::before {
   box-sizing: inherit;
 }
 
 section {
-  box-sizing: border-box;
-  width: 244px;
-  height: 244px;
+  width: 250;
+  height: 250;
   border: 3px dotted rgb(35, 202, 133);
+}
+
+section h1 {
   text-align: center;
 }
 
-p {
+section p {
   box-sizing: border-box;
   width: 100%;
   border: 5px solid rgb(9, 54, 202);
