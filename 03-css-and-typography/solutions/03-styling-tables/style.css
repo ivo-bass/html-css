@@ -19,6 +19,7 @@ table tr:nth-child(odd) td {
 table,
 td,
 th {
+  border-collapse: collapse;
   border-width: 1px;
   border-color: rgb(204, 204, 204);
   border-style: solid;
