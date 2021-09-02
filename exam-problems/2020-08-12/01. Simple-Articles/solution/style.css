@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap");
+@import url("https://use.fontawesome.com/80787c0540.css");
+
+html {
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  color: rgb(125, 125, 125);
+}
+
+body *,
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 50px auto;
+}
+
+.included,
+.action {
+  display: inline-block;
+  vertical-align: middle;
+  width: 44%;
+  min-width: 500px;
+  min-height: 320px;
+  margin: 30px;
+  padding: 20px 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(128, 128, 128, 0.6);
+}
+
+.included {
+  background: #e3f3fd;
+}
+
+.action {
+  border: 5px solid #44a9f8;
+  text-align: center;
+}
+
+.included h2,
+.action h1 {
+  font-family: Montserrat, sans-serif;
+}
+
+.included ul {
+  padding-inline-start: 0;
+}
+
+.included ul li {
+  font-size: 14px;
+  font-weight: 600;
+  list-style: none;
+  line-height: 2.5;
+}
+
+.included ul li i {
+  font-size: 16px;
+  font-weight: 100;
+  color: #44a9f8;
+  padding-right: 10px;
+}
+
+.action h1 {
+  font-size: 40px;
+  color: #44a9f8;
+}
+
+.action h1 span {
+  font-size: 16px;
+  color: gray;
+}
+
+.action p {
+  font-weight: bold;
+}
+
+.action a button {
+  background: #44a9f8;
+  color: white;
+  font-weight: bold;
+  outline: none;
+  border: none;
+  width: 180px;
+  height: 30px;
+  border-radius: 5px;
+  box-shadow: 0 1px 5px gray;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.action a button:hover {
+  background: white;
+  color: #44a9f8;
+}

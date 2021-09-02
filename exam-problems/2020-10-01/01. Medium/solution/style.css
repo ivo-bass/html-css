@@ -49,6 +49,13 @@ button {
   border-radius: 3px;
   outline: none;
   border: 0;
+  cursor: pointer;
+}
+
+button:hover {
+  background: white;
+  color: #03a87c;
+  border: 1px solid #03a87c;
 }
 
 .line p {
