@@ -1,0 +1,62 @@
+html {
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body *,
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  outline: inherit;
+}
+
+body {
+  background: rgb(238, 238, 238);
+}
+
+.card {
+  background: rgb(255, 255, 255);
+  position: relative;
+  width: 400px;
+  margin: 100px auto;
+  border-radius: 5px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  text-align: right;
+}
+
+.card-image-container img {
+  /* position: absolute; */
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.card-content {
+  padding: 30px;
+  position: relative;
+}
+
+.card-content-title,
+.card-content-text {
+  text-align: left;
+}
+
+.card-content-title {
+  margin: 0;
+  padding: 0;
+}
+
+.card-content-btn {
+  background-color: rgb(0, 153, 0);
+  padding: 10px 20px;
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+}

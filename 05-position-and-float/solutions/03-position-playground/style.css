@@ -1,0 +1,80 @@
+@import url("https://use.fontawesome.com/80787c0540.css");
+
+html {
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body *,
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  outline: inherit;
+}
+
+.viewport {
+  display: block;
+  position: relative;
+  height: 100vh;
+}
+
+.viewport.first {
+  background: linear-gradient(
+    90deg,
+    rgba(24, 91, 157, 1) 0%,
+    rgba(45, 148, 159, 1) 35%,
+    rgba(66, 204, 161, 1) 100%
+  );
+}
+
+.viewport.second {
+  background: linear-gradient(
+    90deg,
+    rgba(168, 50, 119, 1) 0%,
+    rgba(187, 89, 68, 1) 50%,
+    rgba(210, 129, 19, 1) 100%
+  );
+}
+
+.card {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 15px 3px rgba(0, 0, 0, 0.9), 0 0 30px 5px rgba(0, 0, 0),
+    0 0 2px 1px rgba(0, 0, 0);
+}
+
+.card:hover {
+  box-shadow: 0 0 15px 3px rgba(255, 255, 255, 0.9),
+    0 0 30px 5px rgba(255, 255, 255), 0 0 2px 1px rgba(255, 255, 255);
+  transition: 0.5s;
+}
+
+.card img {
+  box-shadow: 0 0 35px 35px rgba(0, 0, 0, 0.63) inset;
+}
+
+.card img:hover {
+  box-shadow: 0 0 35px 35px rgba(255, 255, 255, 0.63) inset;
+}
+
+.card a i {
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+}
+
+.card a i:hover {
+  transform: scale(1.5);
+  transition: 0.2s;
+}
