@@ -1,0 +1,98 @@
+@import url("https://use.fontawesome.com/80787c0540.css");
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: gainsboro;
+}
+
+.social-list {
+  position: sticky;
+  top: 0;
+  float: right;
+  list-style: none;
+  max-width: 40%;
+  margin: auto;
+  padding-inline-start: 0;
+  background: white;
+  text-align: center;
+  border-radius: 40px;
+  padding: 5px;
+  box-shadow: 0 0 20px rgba(150, 150, 150, 0.5);
+}
+
+.social-list-item {
+  display: inline-block;
+  margin: 20px 10px 20px 10px;
+}
+
+.social-list-item-link {
+  text-decoration: none;
+  border-radius: 50%;
+  background-color: #eee;
+  padding: 15px;
+}
+
+.social-list-item-link i {
+  color: black;
+  font-size: 20px;
+}
+
+.social-list-item-link:hover {
+  transition: 0.2s;
+}
+
+.social-list-item:nth-child(1) .social-list-item-link:hover {
+  box-shadow: 0 0 10px 1px #3b5998;
+  background: #3b589815;
+}
+
+.social-list-item:nth-child(2) .social-list-item-link:hover {
+  box-shadow: 0 0 10px 1px #00aced;
+  background: #00aced15;
+}
+
+.social-list-item:nth-child(3) .social-list-item-link:hover {
+  box-shadow: 0 0 10px 1px #df6d65;
+  background: #df6d6515;
+}
+
+.social-list-item:nth-child(4) .social-list-item-link:hover {
+  box-shadow: 0 0 10px 1px #007bb6;
+  background: #007bb615;
+}
+
+.social-list-item:nth-child(5) .social-list-item-link:hover {
+  box-shadow: 0 0 10px 1px #ae49b8;
+  background: #ae49b815;
+}
+
+.social-list-item-link:hover > .fa-facebook-square {
+  color: #3b5998;
+}
+
+.social-list-item-link:hover > .fa-twitter {
+  color: #00aced;
+}
+
+.social-list-item-link:hover > .fa-google-plus-square {
+  color: #df6d65;
+}
+
+.social-list-item-link:hover > .fa-linkedin-square {
+  color: #007bb6;
+}
+
+.social-list-item-link:hover > .fa-instagram {
+  color: #ae49b8;
+}
