@@ -1,0 +1,70 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+div,
+section {
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  max-width: 65vw;
+}
+
+span {
+  border: 1px solid black;
+  text-align: center;
+  padding: 10px;
+}
+
+.week-section {
+  flex-flow: row wrap;
+  flex: 5;
+}
+
+.week-section span {
+  align-self: stretch;
+  height: 150px;
+}
+
+.heading {
+  flex: 1 0 100%;
+  font-weight: bold;
+}
+
+.heading.workweek {
+  order: -1;
+}
+
+.heading.weekend {
+  order: 1;
+}
+
+.work-day {
+  flex: 1;
+  order: 0;
+}
+
+.weekend-day {
+  flex: 1;
+  order: 2;
+}
+
+.notes-section {
+  flex-flow: column wrap;
+  align-self: stretch;
+  flex: 2;
+}
+
+.notes-subsection {
+  flex: 1 0 50%;
+  align-self: stretch;
+  text-transform: uppercase;
+}

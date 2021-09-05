@@ -1,0 +1,58 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #eee;
+}
+
+.wrapper {
+  max-width: 1400px;
+  margin: 50px auto;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+header,
+main,
+aside,
+footer {
+  background: #fff;
+  box-shadow: 0 0 5px gray;
+  padding: 20px;
+  margin: 10px;
+}
+
+p {
+  margin: 0;
+}
+
+header {
+  flex: 0 0 100px;
+}
+
+.main-wrapper {
+  flex: 3 1 400px;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+main {
+  flex: 3 1 70%;
+}
+
+aside {
+  flex: 0 3 30%;
+}
+
+footer {
+  flex: 0 0 50px;
+}
