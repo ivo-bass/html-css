@@ -1,0 +1,55 @@
+html {
+  box-sizing: border-box;
+  font-family: Georgia, serif;
+}
+
+*::before,
+*::after,
+* {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+h1,
+h2 {
+  font-family: Helvetica, sans-serif;
+}
+
+main::before {
+  content: "";
+  display: block;
+  width: 100%;
+  border-bottom: 2px solid black;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+header h1 {
+  text-transform: uppercase;
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+}
+
+header ul li {
+  margin-left: 20px;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: rgb(0, 153, 0);
+}
